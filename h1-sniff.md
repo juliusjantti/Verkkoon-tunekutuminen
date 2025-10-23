@@ -96,6 +96,15 @@ Awataan wireshark komennolla `wireshark`, ja kokeillaan napat liikennettä. Ping
 Siellähän näkyy liikennettä.
 
 
+# **d) Oikeesti TCP/IP. Osoita TCP/IP-mallin neljä kerrosta yhdestä siepatusta paketista. Voit selityksen tueksi laatikoida ne ruutukaappauksesta. (Voit käyttää vastauksesi osana ruutukaappaustasi h0-tehtävästä, mutta tässä tehtävässä tarvitaan myös sanallinen selitys.)**
+
+Tässä kuva aikaisemmasta tehtävästä. 
+
+![](https://github.com/user-attachments/assets/28ade437-19af-4a02-8592-8c2b28327aba)
+
+Kuvassa näkyy Link- Internet- ja Transport layerit. Link layer sisältää MAC-osoitteita. Internet layerin tunnistaa IPv4 osotteista. Transport layerissa näkyy TCP protokolla ja portit.
+
+
 
 
 ## Lähteet
