@@ -25,7 +25,7 @@ Huonoja uutisia: yhteys on suojattu TLS-salauksella.
 i) Analyysi. Sieppaa pieni määrä omaa liikennettäsi. Analysoi se, eli selitä mahdollisimman perusteellisesti, mitä tapahtuu. (Tässä pääpaino on siis analyysillä ja selityksellä, joten liikennettä kannattaa ottaa tarkasteluun todella vähän - vaikka vain pari pakettia. Gurut huomio: Selitä myös mielestäsi yksinkertaiset asiat.)
 
 
-**x) Lue ja tiivistä.**
+# **x) Lue ja tiivistä.**
 
 
 Karvinen 2025: [Wireshark - Getting Started](https://terokarvinen.com/wireshark-getting-started/)
@@ -40,7 +40,7 @@ Karvinen 2025: [Network Interface Names on Linux](https://terokarvinen.com/netwo
 
 
 
-**a) Linux. Asenna Debian tai Kali Linux virtuaalikoneeseen.**
+# **a) Linux. Asenna Debian tai Kali Linux virtuaalikoneeseen.**
 
 Tätäkin on tehty jo aikaisemmin. Seurataan [Karvisen ohjetta](https://terokarvinen.com/2021/install-debian-on-virtualbox/) debianin asennukseen. 
 
