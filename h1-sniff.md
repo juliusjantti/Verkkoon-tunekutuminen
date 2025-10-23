@@ -46,7 +46,7 @@ Tätäkin on tehty jo aikaisemmin. Seurataan [Karvisen ohjetta](https://terokarv
 
 Alempana valokuva debianista asentumassa.
 
-[debianasennus](https://github.com/user-attachments/assets/615cd65d-005d-4e27-958e-ab8f46bb8083)
+![debianasennus](https://github.com/user-attachments/assets/615cd65d-005d-4e27-958e-ab8f46bb8083)
 
 
 Kali-linux tuli asennettua viime kurssilla. Joten sen asentamiseen voidaan seurata omaa [vanhaa raporttia](https://github.com/juliusjantti/Tunkeutumistestaus/blob/main/h1%20Hacker's%20Journey.md) viimekurssilta. Kohta a) asennetaan Kali Linux virtuaalikoneeseen.
