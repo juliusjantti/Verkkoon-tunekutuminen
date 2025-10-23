@@ -1,6 +1,5 @@
-# h1 sniff
+# h1 sniff - tehtävät
 
-##Tehtävät
 
 x) Lue ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)
 Karvinen 2025: [Wireshark - Getting Started](https://terokarvinen.com/wireshark-getting-started/)
@@ -27,4 +26,29 @@ i) Analyysi. Sieppaa pieni määrä omaa liikennettäsi. Analysoi se, eli selit�
 
 
 **x) Lue ja tiivistä.**
+
+
+Karvinen 2025: [Wireshark - Getting Started](https://terokarvinen.com/wireshark-getting-started/)
+
+- Ohjeet kuinka asentaa wireshark linuxiin käyttäen komentokehotetta. Hyvin selkeät ohjeet, joita todennäköisesti hyödynnän tulevaisuudessa, vaikka wiresharkkia on tullut ennenkin asenneltua.
+- Sisältää myös vinkkejä siihen miten wiresharkkia käytetään. Esimerkiksi -pcap luominen ja niiden käsittely.
+
+Karvinen 2025: [Network Interface Names on Linux](https://terokarvinen.com/network-interface-linux/)
+
+- Network Interface Names ovat nimiä virtuaalisille ns "verkkokorteille". Kun virtuaalikoneessa ei voi olla fyysistä verkkokorttia. "en" tarkoittaa "Wired Ethernet. "wl" tarkoittaa Wlania. "lo" tarkoittaa Loopback Adapter.
+- Omia interfaceja voi tarkastella komennoilla `ip a` ja `ip route`
+
+
+
+**a) Linux. Asenna Debian tai Kali Linux virtuaalikoneeseen.**
+
+Tätäkin on tehty jo aikaisemmin. Seurataan [Karvisen ohjetta](https://terokarvinen.com/2021/install-debian-on-virtualbox/) debianin asennukseen. 
+
+Alempana valokuva debianista asentumassa.
+
+[debianasennus](https://github.com/user-attachments/assets/615cd65d-005d-4e27-958e-ab8f46bb8083)
+
+
+Kali-linux tuli asennettua viime kurssilla. Joten sen asentamiseen voidaan seurata omaa [vanhaa raporttia](https://github.com/juliusjantti/Tunkeutumistestaus/blob/main/h1%20Hacker's%20Journey.md) viimekurssilta. Kohta a) asennetaan Kali Linux virtuaalikoneeseen.
+
 
