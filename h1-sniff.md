@@ -87,7 +87,7 @@ Jotain tapahtui. Ajetaan asennuskomento uudestaan.
 
 ![](https://github.com/user-attachments/assets/4d4cc984-43b9-4286-89d6-8558e2743557)
 
-Päästiin eteenpäin. Ohjeessa suositeltiin valitsemaan ohta "<yes>". Wiresharkin lataus onnistui. Seurataan ohjetta.
+Päästiin eteenpäin. Ohjeessa suositeltiin valitsemaan kohta "yes". Wiresharkin lataus onnistui. Seurataan ohjetta.
 
 Awataan wireshark komennolla `wireshark`, ja kokeillaan napat liikennettä. Pingataan 8.8.8.8 ja katsotaan tuleeko wiresharkiin mitään.
 
