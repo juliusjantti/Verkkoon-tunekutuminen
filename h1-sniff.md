@@ -147,7 +147,7 @@ Tiedostosta löytyy useampia weppipalvelimien nimiä:
 - terokarvinen.goatcounter.fi (Onko goatcounter mahdollisesti palvelu mitä terokarvinen.com käyttää?
 
 
-#**i) Analyysi. Sieppaa pieni määrä omaa liikennettäsi. Analysoi se, eli selitä mahdollisimman perusteellisesti, mitä tapahtuu. (Tässä pääpaino on siis analyysillä ja selityksellä, joten liikennettä kannattaa ottaa tarkasteluun todella vähän - vaikka vain pari pakettia. Gurut huomio: Selitä myös mielestäsi yksinkertaiset asiat.)**
+# **i) Analyysi. Sieppaa pieni määrä omaa liikennettäsi. Analysoi se, eli selitä mahdollisimman perusteellisesti, mitä tapahtuu. (Tässä pääpaino on siis analyysillä ja selityksellä, joten liikennettä kannattaa ottaa tarkasteluun todella vähän - vaikka vain pari pakettia. Gurut huomio: Selitä myös mielestäsi yksinkertaiset asiat.)**
 
 
 ![](https://github.com/user-attachments/assets/b97dc721-8d0d-42f9-af9d-e559dea42778)
