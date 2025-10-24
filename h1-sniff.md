@@ -129,7 +129,10 @@ Jätetään tällä kertaa vapaaehtoinen tehtävä tekemättä.
 
 # **g) Minkä merkkinen verkkokortti käyttäjällä on?**
 
-Yritetään googlen avulla selvitellä mistä kyseinen tieto löytyisi. Googlesta löytyi ainakin [tälläinen](https://osqa-ask.wireshark.org/questions/23287/how-to-determine-which-nic-is-being-used/) sivu. 
+Yritetään googlen avulla selvitellä mistä kyseinen tieto löytyisi. Googlesta löytyi ainakin [tälläinen](https://osqa-ask.wireshark.org/questions/23287/how-to-determine-which-nic-is-being-used/) sivu. Lisäksi verkkokoetin merkkiä voisi etsiä googlettamalla mac osoitteen OUI mutta tällä ei löytynyt mitään tietoa. Toistaiseksi en saa tehtäväänmitään järkevää vastausta.
+
+![](https://github.com/user-attachments/assets/b92aaa6b-be59-4ce4-88e1-1d206d4c0aaa)
+
 
 # **h) Millä weppipalvelimella käyttäjä on surffaillut?**
 
@@ -137,7 +140,9 @@ Tiedostosta löytyy useampia weppipalvelimien nimiä:
 - google.com
 - terokarvinen.com
 - commentero.terokarvinen.com
-- goatcounter.netlify.com (Goatcounterista löytyi seuraavaa informaatiota netistä: (*GoatCounter is an open source web analytics platform available as a free donation-supported hosted service or self-hosted app. It aims to offer easy to use and meaningful privacy-friendly web analytics as an alternative to Google Analytics or Matomo.* Lähde [goatcounter.com](goatcounter.com))
+- goatcounter.netlify.com (Goatcounterista löytyi seuraavaa informaatiota netistä: (*GoatCounter is an open source web analytics platform available as a free donation-supported hosted service or self-hosted app. It aims to offer easy to use and meaningful privacy-friendly web analytics as an alternative to Google Analytics or Matomo.* Lähde [goatcounter.com](goatcounter.com) Netlify taas on jokin pilvipalvelu.)
+- terokarvinen.goatcounter.fi (Onko goatcounter mahdollisesti palvelu mitä terokarvinen.com käyttää?
+- 
 
 
 
