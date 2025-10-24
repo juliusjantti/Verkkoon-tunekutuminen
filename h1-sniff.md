@@ -52,7 +52,7 @@ Ja tässä debian näyttäisi toimivan. Ja näyttäisi olevan myös yhteydessä 
 
 ![](https://github.com/user-attachments/assets/9491a9c0-77ff-42af-9e49-386191e4d71a)
 
-Kali-linux tuli asennettua viime kurssilla. Joten sen asentamiseen voidaan seurata omaa [vanhaa raporttia](https://github.com/juliusjantti/Tunkeutumistestaus/blob/main/h1%20Hacker's%20Journey.md) viimekurssilta. Kohta a) asennetaan Kali Linux virtuaalikoneeseen.
+Kali-linux tuli asennettua viime kurssilla. Joten sen asentamiseen voidaan seurata omaa [vanhaa raporttia](https://github.com/juliusjantti/Tunkeutumistestaus/blob/main/h1%20Hacker's%20Journey.md) viimekurssilta. Kohta a) asennetaan Kali Linux virtuaalikoneeseen. Itse en tässä vaiheessa vielä asentanut kalia sillä debian näytti toimivan vallan mainiosti.
 
 
 # **b) Ei voi kalastaa. Osoita, että pystyt katkaisemaan ja palauttamaan virtuaalikoneen Internet-yhteyden.**
@@ -103,6 +103,19 @@ Tässä kuva aikaisemmasta tehtävästä.
 ![](https://github.com/user-attachments/assets/28ade437-19af-4a02-8592-8c2b28327aba)
 
 Kuvassa näkyy Link- Internet- ja Transport layerit. Link layer sisältää MAC-osoitteita. Internet layerin tunnistaa IPv4 osotteista. Transport layerissa näkyy TCP protokolla ja portit.
+
+
+# **e) Mitäs tuli surffattua? Avaa surfing-secure.pcap. Tutustu siihen pintapuolisesti ja kuvaile, millainen kaappaus on kyseessä. Tässä siis vain lyhyesti ja yleisellä tasolla. Voit esimerkiksi vilkaista, montako konetta näkyy, mitä protokollia pistää silmään. Määrästä voit arvioida esimerkiksi pakettien lukumäärää, kaappauksen kokoa ja kestoa.
+**
+
+Ladataan kyseinen tiedosto ja tarkastellaan sitä. 
+
+- Heti ensimmäisistä paketeista näeee että ne ovat DNS kyselyitä eli nimipalvelun kyselyitä. Olisiko kyseessä jokin DNS hyökkäys?
+- Laite 192.168.122.7 näyttäisi olevan hyökkäävä laite, joka puhuu useamman palvelimen kanssa.
+
+
+  
+- Kaappauksen kestoa voisi arvella kuinka paljon aikaa kului ensimmäisten ja viimeisten pakettien välissä, eli noin seitsemän sekuntia.
 
 
 
