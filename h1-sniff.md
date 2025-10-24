@@ -152,15 +152,19 @@ Tiedostosta löytyy useampia weppipalvelimien nimiä:
 
 ![](https://github.com/user-attachments/assets/b97dc721-8d0d-42f9-af9d-e559dea42778)
 
-Kuvassa on kaappaus wiresharkista, jossa on liikennettä. Liikenteestä saa irti lähtö ja kohde IP osoitteet, sekä MAC osoitteet. Protokollana toimii TPC. Wiresharkin kaapatessa liikennettä otin virtuaalikoneella yhteyden Terokarvinen.com domainiin. Valituissa paketeissa taitaa olla juuri meneillään 3 way handshake jolla yhteyttä ollaan muodostamassa. Kuvassa näkyy kolme kättelyn kohtaa (SYN, SYN ACK ja ACK). Yhteys näyttää olevan onnistunut.
+Kuvassa on kaappaus wiresharkista, jossa on liikennettä. Liikenteestä saa irti lähtö ja kohde IP osoitteet, sekä MAC osoitteet. Protokollana toimii TCP. Wiresharkin kaapatessa liikennettä otin virtuaalikoneella yhteyden Terokarvinen.com domainiin. Valituissa paketeissa taitaa olla juuri meneillään 3 way handshake jolla yhteyttä ollaan muodostamassa. Kuvassa näkyy kolmessa ensimmäisessä paketissa kolme kättelyn kohtaa (SYN, SYN ACK ja ACK). Yhteys näyttää olevan onnistunut. Kolme seuraavaa pakettia taitaa olla kättelyn sulkeminen. Liikenteen muu sisältö on salattua sillä käytetään HTTPS protokollaa. Muuta analysoitavaa on vaikea keksiä enempää.
 
 IPt:
-- 10.0.2.15
-- 139.162.131.217
+- `10.0.2.15`
+- `139.162.131.217`
 
 MACIT:
 - `08:00:27:c5:c8:5b`
 - `52:54:00:12:35:02`
+
+Portit:
+- 443 (https liikenne)
+- 37244
 
 
 
