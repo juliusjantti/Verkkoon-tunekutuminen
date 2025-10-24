@@ -164,7 +164,7 @@ Portit:
 - 443 (https liikenne)
 - 37244
 
-
+Nyt kun tarkastelee virtuaalikoneen MAC osoitteita tuli mieleen aikaisempi tehtävä jossa piti löytää verkkokortin valmistaja. Voisiko olla että hyökkäys on tehty virtuaalikoneella koska MAC osoitteet alkavat samalla `52:54:00` OUIlla. Eli verkkokortilla ei niinsanotusti ole valmistajaa.
 
 
 ## Lähteet
