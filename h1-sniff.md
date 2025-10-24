@@ -111,6 +111,7 @@ Ladataan kyseinen tiedosto ja tarkastellaan sitä.
 
 - Heti ensimmäisistä paketeista näeee että ne ovat DNS kyselyitä eli nimipalvelun kyselyitä. Olisiko kyseessä jokin DNS hyökkäys?
 - Laite 192.168.122.7 näyttäisi olevan hyökkäävä laite, joka puhuu useamman palvelimen kanssa. Olisiko 192.168.122.1 Default gateway?
+- MAC osoitteita näyttäisi kuitenkin olevan vain kaksi: `54:52:00:2f:e1:e5` ja `52:54:00:cc:d7:12`
 - Silmiin pistää myös TCP ja TLS protokollat. Jotain salattua tavaraa on liikkunut paikasta toiseen.
 - Silmiin pisti pakettien keskeltä löytyvä ARP pyyntö. Siinä 192.168.122.1 kyselee kuka omistaa osoitteen 192.168.122.7.
 
@@ -129,7 +130,9 @@ Jätetään tällä kertaa vapaaehtoinen tehtävä tekemättä.
 
 # **g) Minkä merkkinen verkkokortti käyttäjällä on?**
 
-Yritetään googlen avulla selvitellä mistä kyseinen tieto löytyisi. Googlesta löytyi ainakin [tälläinen](https://osqa-ask.wireshark.org/questions/23287/how-to-determine-which-nic-is-being-used/) sivu. Lisäksi verkkokoetin merkkiä voisi etsiä googlettamalla mac osoitteen OUI mutta tällä ei löytynyt mitään tietoa. Toistaiseksi en saa tehtäväänmitään järkevää vastausta.
+Yritetään googlen avulla selvitellä mistä kyseinen tieto löytyisi. Googlesta löytyi ainakin [tälläinen](https://osqa-ask.wireshark.org/questions/23287/how-to-determine-which-nic-is-being-used/) sivu. Lisäksi verkkokoetin merkkiä voisi etsiä googlettamalla mac osoitteen OUI mutta tällä ei löytynyt mitään tietoa. Toistaiseksi en saa tehtävää nmitään järkevää vastausta.
+
+[Wireshark OUI lookup tool](https://www.wireshark.org/tools/oui-lookup.html)
 
 ![](https://github.com/user-attachments/assets/b92aaa6b-be59-4ce4-88e1-1d206d4c0aaa)
 
@@ -142,9 +145,22 @@ Tiedostosta löytyy useampia weppipalvelimien nimiä:
 - commentero.terokarvinen.com
 - goatcounter.netlify.com (Goatcounterista löytyi seuraavaa informaatiota netistä: (*GoatCounter is an open source web analytics platform available as a free donation-supported hosted service or self-hosted app. It aims to offer easy to use and meaningful privacy-friendly web analytics as an alternative to Google Analytics or Matomo.* Lähde [goatcounter.com](goatcounter.com) Netlify taas on jokin pilvipalvelu.)
 - terokarvinen.goatcounter.fi (Onko goatcounter mahdollisesti palvelu mitä terokarvinen.com käyttää?
-- 
 
 
+#**i) Analyysi. Sieppaa pieni määrä omaa liikennettäsi. Analysoi se, eli selitä mahdollisimman perusteellisesti, mitä tapahtuu. (Tässä pääpaino on siis analyysillä ja selityksellä, joten liikennettä kannattaa ottaa tarkasteluun todella vähän - vaikka vain pari pakettia. Gurut huomio: Selitä myös mielestäsi yksinkertaiset asiat.)**
+
+
+![](https://github.com/user-attachments/assets/b97dc721-8d0d-42f9-af9d-e559dea42778)
+
+Kuvassa on kaappaus wiresharkista, jossa on liikennettä. Liikenteestä saa irti lähtö ja kohde IP osoitteet, sekä MAC osoitteet. Protokollana toimii TPC. Wiresharkin kaapatessa liikennettä otin virtuaalikoneella yhteyden Terokarvinen.com domainiin. Valituissa paketeissa taitaa olla juuri meneillään 3 way handshake jolla yhteyttä ollaan muodostamassa. Kuvassa näkyy kolme kättelyn kohtaa (SYN, SYN ACK ja ACK). Yhteys näyttää olevan onnistunut.
+
+IPt:
+- 10.0.2.15
+- 139.162.131.217
+
+MACIT:
+- `08:00:27:c5:c8:5b`
+- `52:54:00:12:35:02`
 
 
 
@@ -155,3 +171,4 @@ Tiedostosta löytyy useampia weppipalvelimien nimiä:
 - Tero Karvinen, Network Interface names on Linux, https://terokarvinen.com/network-interface-linux/
 - Tero Karvinen, Wireshark - Getting Started, https://terokarvinen.com/wireshark-getting-started/
 - Julius Jäntti, GitHub, h1 Hackers Journey, https://github.com/juliusjantti/Tunkeutumistestaus/blob/main/h1%20Hacker's%20Journey.md
+- Anson Alexander, Youtube, Wireshark tutorial for beginners, https://www.youtube.com/watch?v=qTaOZrDnMzQ
