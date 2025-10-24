@@ -118,10 +118,8 @@ Ladataan kyseinen tiedosto ja tarkastellaan sitä.
  ![](https://github.com/user-attachments/assets/fe1a081b-3eb7-4b3c-ab5c-2fafd29cd49f)
 
 - Kaappauksen kestoa voisi arvella kuinka paljon aikaa kului ensimmäisten ja viimeisten pakettien välissä, eli noin seitsemän sekuntia. Liikenne ennen ARP kyselyä kesti noin puolitoista sekuntia jonka jälkeen tuli pieni tauko, ja loppuosio kesti noin kaksi ja puoli sekuntia.
+- Viimeisissä paketeissa näyttäisi olevan TCP kättelyn lopettaminen.
   
-![](https://github.com/user-attachments/assets/84e3f514-df33-4030-9988-216cd4696b1c)
-
-- Viimeisissä paketeissa näyttäisi olevan jotain flageja muutettu. En osaa näistä enempää kertoa mutta pisti silmään. Yritetäänkö tällä resettaa jotakin?
 
 # **f) Vapaaehtoinen, vaikea: Mitä selainta käyttäjä käyttää? surfing-secure.pcap (Päivitys 2025-03-31 w14 ma - muutin tehtävän vapaaehtoiseksi Giang:n suosituksesta)**
 
