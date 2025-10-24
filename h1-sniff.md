@@ -105,17 +105,41 @@ Tässä kuva aikaisemmasta tehtävästä.
 Kuvassa näkyy Link- Internet- ja Transport layerit. Link layer sisältää MAC-osoitteita. Internet layerin tunnistaa IPv4 osotteista. Transport layerissa näkyy TCP protokolla ja portit.
 
 
-# **e) Mitäs tuli surffattua? Avaa surfing-secure.pcap. Tutustu siihen pintapuolisesti ja kuvaile, millainen kaappaus on kyseessä. Tässä siis vain lyhyesti ja yleisellä tasolla. Voit esimerkiksi vilkaista, montako konetta näkyy, mitä protokollia pistää silmään. Määrästä voit arvioida esimerkiksi pakettien lukumäärää, kaappauksen kokoa ja kestoa.
-**
+# **e) Mitäs tuli surffattua? Avaa surfing-secure.pcap. Tutustu siihen pintapuolisesti ja kuvaile, millainen kaappaus on kyseessä. Tässä siis vain lyhyesti ja yleisellä tasolla. Voit esimerkiksi vilkaista, montako konetta näkyy, mitä protokollia pistää silmään. Määrästä voit arvioida esimerkiksi pakettien lukumäärää, kaappauksen kokoa ja kestoa.**
 
 Ladataan kyseinen tiedosto ja tarkastellaan sitä. 
 
 - Heti ensimmäisistä paketeista näeee että ne ovat DNS kyselyitä eli nimipalvelun kyselyitä. Olisiko kyseessä jokin DNS hyökkäys?
-- Laite 192.168.122.7 näyttäisi olevan hyökkäävä laite, joka puhuu useamman palvelimen kanssa.
+- Laite 192.168.122.7 näyttäisi olevan hyökkäävä laite, joka puhuu useamman palvelimen kanssa. Olisiko 192.168.122.1 Default gateway?
+- Silmiin pistää myös TCP ja TLS protokollat. Jotain salattua tavaraa on liikkunut paikasta toiseen.
+- Silmiin pisti pakettien keskeltä löytyvä ARP pyyntö. Siinä 192.168.122.1 kyselee kuka omistaa osoitteen 192.168.122.7.
 
+ ![](https://github.com/user-attachments/assets/fe1a081b-3eb7-4b3c-ab5c-2fafd29cd49f)
 
+- Kaappauksen kestoa voisi arvella kuinka paljon aikaa kului ensimmäisten ja viimeisten pakettien välissä, eli noin seitsemän sekuntia. Liikenne ennen ARP kyselyä kesti noin puolitoista sekuntia jonka jälkeen tuli pieni tauko, ja loppuosio kesti noin kaksi ja puoli sekuntia.
   
-- Kaappauksen kestoa voisi arvella kuinka paljon aikaa kului ensimmäisten ja viimeisten pakettien välissä, eli noin seitsemän sekuntia.
+![](https://github.com/user-attachments/assets/84e3f514-df33-4030-9988-216cd4696b1c)
+
+- Viimeisissä paketeissa näyttäisi olevan jotain flageja muutettu. En osaa näistä enempää kertoa mutta pisti silmään. Yritetäänkö tällä resettaa jotakin?
+
+# **f) Vapaaehtoinen, vaikea: Mitä selainta käyttäjä käyttää? surfing-secure.pcap (Päivitys 2025-03-31 w14 ma - muutin tehtävän vapaaehtoiseksi Giang:n suosituksesta)**
+
+Jätetään tällä kertaa vapaaehtoinen tehtävä tekemättä.
+
+
+# **g) Minkä merkkinen verkkokortti käyttäjällä on?**
+
+Yritetään googlen avulla selvitellä mistä kyseinen tieto löytyisi. Googlesta löytyi ainakin [tälläinen](https://osqa-ask.wireshark.org/questions/23287/how-to-determine-which-nic-is-being-used/) sivu. 
+
+# **h) Millä weppipalvelimella käyttäjä on surffaillut?**
+
+Tiedostosta löytyy useampia weppipalvelimien nimiä:
+- google.com
+- terokarvinen.com
+- commentero.terokarvinen.com
+- goatcounter.netlify.com (Goatcounterista löytyi seuraavaa informaatiota netistä: (*GoatCounter is an open source web analytics platform available as a free donation-supported hosted service or self-hosted app. It aims to offer easy to use and meaningful privacy-friendly web analytics as an alternative to Google Analytics or Matomo.* Lähde [goatcounter.com](goatcounter.com))
+
+
 
 
 
