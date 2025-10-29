@@ -89,7 +89,11 @@ Ajetaan uudestaan komento `sudo tail -F /var/log/apache2/access.log` ja katsotaa
 
 ![](https://github.com/user-attachments/assets/50a21da3-e880-4a08-92be-f5838ce13587)
 
-Siellä näyttäisi olevan lisää kohtia. Esiin paistaa heti NSE (Nmap Scripting Engine). Lokissa näkyy myös URL 'https://nmap.org/book/nse.html'.
+Siellä näyttäisi olevan lisää kohtia. Esiin paistaa heti NSE (Nmap Scripting Engine). Lokissa näkyy myös URL 'https://nmap.org/book/nse.html'. IP osoite on edelleen sama kuin aiemmassa tehtävässä, koska suoritan itse porttiskannausta omaan virtuaalikoneeseen. 
+
+NSE on nmapin oma ominaisuus jolla käyttäjä voi kirjoittaa ja jakaa omia skriptejä ([lähde](https://nmap.org/book/nse.html)). Skriptejä voidaan aktivoida `-sC` optiolla. 
+
+Suuremmasta lokista voisi etsiä kohtia juuri hakusanoilla 'nmap' tai 'Nmap Sctipting Engine' tai 'https://nmap.org/book/nse.html'.
 
 
 
