@@ -1,3 +1,5 @@
+# h2 Violetti - Tehtävät
+
 Kaikissa kohdissa edellytetään analyysia ja selitystä. Selvitä ja selitä siis komentojen ja komentoriviparametrien merkitys. Selitä, mitä tulokset tarkoittavat; ja mitä niistä tulisi ymmärtää. Lue vinkit, ennenkuin aloitat.
 
 x) Lue ja vastaa lyhyesti kysymyksiin. Tässä alakohdassa x ei tällä kertaa tarvitse lukea artikkeleita kokonaan, ei tarvitse tiivistää niitä, eikä tehdä testejä koneella.
@@ -23,3 +25,14 @@ h) Pienemmät jäljet. Porttiskannaa weppipalvelimesi uudelleen localhost-osoitt
 i) Hieman vaikeampi: LoWeR ChEcK. Poista skritiskannauksesta viimeinenkin "nmap" -teksti. Etsi löytämääsi tekstiä /usr/share/nmap -hakemistosta ja korvaa se toisella. Tee porttiskannaus ja tarkista, että "nmap" ei näy isolla eikä pienellä kirjoitettuna Apachen lokissa eikä siepatussa verkkoliikenteessä. (Tässä tehtävässä voit muokata suoraan lua-skriptejä /usr/share/nmap alta, 'sudoedit'. Muokatun version paketoiminen siis rajataan ulos tehtävästä.)
 
 j) Vapaaehtoinen, vaikea: Invisible, invincible. Etsi jokin toinen nmap:n skripti, jonka verkkoliikenteessä esiintyy merkkijono "nmap" isolla tai pienellä. Muuta nmap:n koodia niin, että tuo merkkijono ei enää näy verkkoliikenteessä.
+
+
+## Vastaukset
+
+# **x) Lue ja vastaa lyhyesti kysymyksiin. Tässä alakohdassa x ei tällä kertaa tarvitse lukea artikkeleita kokonaan, ei tarvitse tiivistää niitä, eikä tehdä testejä koneella.**
+
+- Tuskan Pyramidi ([Pyramid of pain(https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html)]) on luotu kuvaamaan sitä kuinka paljon haittaa hyökkääjälle koituu erilaisten hyökkäyksien torjumisesta. Kuvassa alimman kerroksen indikaattorien torjuminen tuottaa vähiten kipua, ja ylimmän indikaattorin torjuminen tuottaa eniten päänvaivaa. Tekstin pointtina on että jos jostain hyökkäyksestä ilmenee indikaattoreita, niihin pitää reagoida välittömästi.
+- Timanttimalli tai [Diamond Model](https://www.threatintel.academy/wp-content/uploads/2020/07/diamond-model.pdf) on malli jonka avulla voidaan ymmärtää kyberturvallisuusuhkia tai hyökkäyksiä ([*lähde*](https://kravensecurity.com/diamond-model-analysis/)). Mallissa kuvataan hyökkääjä, uhri, infrastruktuuri ja toimintatapa. Jokainen hyökkäys sisältää nämä neljä komponenttia.
+
+
+
