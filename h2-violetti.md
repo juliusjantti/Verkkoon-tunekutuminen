@@ -96,7 +96,26 @@ NSE on nmapin oma ominaisuus jolla käyttäjä voi kirjoittaa ja jakaa omia skri
 Suuremmasta lokista voisi etsiä kohtia juuri hakusanoilla 'nmap' tai 'Nmap Sctipting Engine' tai 'https://nmap.org/book/nse.html'.
 
 
+# **e) Wire sharking. Sieppaa verkkoliikenne porttiskannatessa Wiresharkilla. Huomaa, että localhost käyttää "Loopback adapter" eli "lo". Tallenna pcap. Etsi kohdat, joilla on sana "nmap" ja kommentoi niitä. Jokaisen paketin jokaista kohtaa ei tarvitse analysoida, yleisempi tarkastelu riittää.**
 
+Avataan wireshark ja aloitetaan nappaamaan liikennettä. Sitten siirrytään komentoriville ja ajetaan porttiskannaus. 
+
+![](https://github.com/user-attachments/assets/dbd57b7d-ff20-4feb-b397-41e5016afbba)
+
+Porttikannauksen jälkeen Wiresharkki nappasi suuren määrän paketteja. Melkein 3000 pakettia. Yksitellen niiden läpi käyminen olisi erittäin hidasta, joten yritetään keksiä muita tapoja.
+
+Tässä [videossa](https://www.youtube.com/watch?v=lr8ovDX6kGo) kohdassa '2:10' esitetään tapa jossa katsotaan tiettyjen porttien lähetettyjä paketteja. 
+
+![](https://github.com/user-attachments/assets/1f9b67ef-2025-4736-b1ab-341db1e15be2)
+
+Kuvassa portti 51693 on lähettänyt yli tuhat pakettia, kun taas seuraavissa porteissa on muutamia kymmeniä. Tästä voisi päätellä että kyseessä voisi olla porttiskannaus. Painetaan kyseistä riviä hiiren oikealla näppäimellä otetaan 'apply as filter' > 'selected'. Niin saadaan wiresharkkiin auki kaikki portin liikenne. 
+
+
+![](https://github.com/user-attachments/assets/fe2f19ee-0d18-44b1-87c1-2fa21cf50a72)
+
+Katsomalla esimerkikai kohdeporttinumeroita nähdään että ne esiintyvät nousevassa järjestyksessä peräkkäin. Eli hyvä merkki porttiskannauksesta sillä jokaiseen porttiin lähetetään tietoa.
+
+Kohtia joissa lukisi suoraan 'nmap' ei löytynyt.
 
 
 
