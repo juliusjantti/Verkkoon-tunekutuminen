@@ -155,6 +155,32 @@ Katsotaan vielä apachen oma loki.
 Apachen omassa lokissa ei kuitenkaan näy tekstijonoa "nmap", pelkästään user agentti joka muutettiin. 
 
 
+# **i) Hieman vaikeampi: LoWeR ChEcK. Poista skritiskannauksesta viimeinenkin "nmap" -teksti. Etsi löytämääsi tekstiä /usr/share/nmap -hakemistosta ja korvaa se toisella. Tee porttiskannaus ja tarkista, että "nmap" ei näy isolla eikä pienellä kirjoitettuna Apachen lokissa eikä siepatussa verkkoliikenteessä. (Tässä tehtävässä voit muokata suoraan lua-skriptejä /usr/share/nmap alta, 'sudoedit'. Muokatun version paketoiminen siis rajataan ulos tehtävästä.)**
+
+Mennään hakemistoon /usr/share/nmap ja avataan sieltä tiedosto "nse_main.lua". Se sisältää aika paljon tavaraa.
+
+![](https://github.com/user-attachments/assets/bf296d3e-b58d-4406-9908-741d4a019a67)
+
+Katsotaan löytyisikö jostain sana "nmaplowercheck", mikä näkyy aikaisemmassa napatussa verkkoliikenteessä.
+
+
+![](https://github.com/user-attachments/assets/055f53c8-6d96-4064-8174-b2327af0c6b4)
+
+Siirrytään hakemistoon "nselib" ja koitetaan muokata tiedostoa "http.lua". Sieltä löytyi yksi kohta joka sisälsi sanan "nmaplowercheck" joten muutetaan se ja kokeillaan tehdä porttiskannausta ja napata liikennettä uudestaan.
+
+![](https://github.com/user-attachments/assets/f7784452-e804-4ede-9921-f6b49187b3a3)
+
+
+![](https://github.com/user-attachments/assets/0110bdcb-8599-44f6-abb7-c06a340bc214)
+
+Napatussa liikenteessä ei tällä kertaa näy mitään. En tiedä oliko tämä toivottu rataisu vai ei.
+
+Apachen omassa lokissa ei näkynyt mitään uutta tai erilaista.
+
+"http.lua" tiedoston muokkaamisen jälkeen Nmap-sanaa ei lokissa tai liikenteessä näy jos ajaa porttiskannauksen muutetulla user-agentilla. Jos porttiskannauksen ajaa normaalisti, näkyy nmap-sana useammassa kohtaa.
+
+
+
 
 
 
