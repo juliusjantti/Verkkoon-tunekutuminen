@@ -115,8 +115,44 @@ Kuvassa portti 51693 on lähettänyt yli tuhat pakettia, kun taas seuraavissa po
 
 Katsomalla esimerkikai kohdeporttinumeroita nähdään että ne esiintyvät nousevassa järjestyksessä peräkkäin. Eli hyvä merkki porttiskannauksesta sillä jokaiseen porttiin lähetetään tietoa.
 
-Kohtia joissa lukisi suoraan 'nmap' ei löytynyt.
+![](https://github.com/user-attachments/assets/c3107656-68ae-485b-8a6b-a36c72c20bb3)
 
+
+Teron vinkeissä oli tapa suodattaa paketteja tietyn sanan perusteella. Laitetaan filtteriksi "frame contains 'nmap'" Wiresharkista löytyi muutapa paketti jossa näkyi sana "nmap". Silmiin osui ainakin "Nmap scripting engine" taas.
+
+# **f) Net grep. Sieppaa verkkoliikenne 'ngrep' komennolla ja näytä kohdat, joissa on sana "nmap".**
+
+Ngrep työkalua ei ole vielä joten asennetaan se virtuaalikoneelle komennolla `sudo apt-get install ngrep`
+
+Kokeillaan Teron vinkeistä löytyvää komentoa `sudo ngrep -d lo -i nmap`. Jätetään komento ajautumaan.
+
+![](https://github.com/user-attachments/assets/d691077d-3deb-4229-9665-330e9f9da475)
+
+Sitten avataan uusi välilehti ja ajetaan nmap porttiskannaus uudelleen.
+
+Ja kappas edelliselle välilehdelle ilmestyi suuri määrä tavaraa.
+
+![](https://github.com/user-attachments/assets/25a9f91f-4ab0-4bc5-8c30-fe50f00d1d9f)
+
+Kohtia jossa lukee Nmap on erittäin monta. Jälleen kerran "Nmap Scripting Engine"
+
+# **g) Agentti. Vaihda nmap:n user-agent niin, että se näyttää tavalliselta weppiselaimelta.**
+
+Laitetaan toinen välilehti taas kuuntelemaan komennolla `sudo ngrep -d lo -i nmap`. Tämän jälkeeen ajetaan ensimmäisellä välilehdellä komento `sudo nmap -A localhost --script-args http.useragent="BSD experimental on XBox350 alpha (emulated on Nokia 3110)"`
+
+User agent on oletettavasti vaihdettu. Siirrytään seuraavaan tehtävään jossa tämä vaihto näkyy.
+
+# **h) Pienemmät jäljet. Porttiskannaa weppipalvelimesi uudelleen localhost-osoitteella. Tarkastele sekä Apachen lokia että siepattua verkkoliikennettä. Mikä on muuttunut, kun vaihdoit user-agent:n? Löytyykö lokista edelleen tekstijono "nmap"?**
+
+![](https://github.com/user-attachments/assets/a12ccfb7-f612-4f09-8c80-30ea93f9dcd8)
+
+Ylempänä napattua verkkoliikennettä samalla tavalla kuin "f)" kohdassa. Tavaraa on huomattavasti vähemmän- User agent on selkeästi vaihtunut Mozzillasta muotoon "BSD experimental..." Mutta liikenteessä näkyy myös tekstijono "nmap".
+
+Katsotaan vielä apachen oma loki.
+
+![](https://github.com/user-attachments/assets/31c1187e-ca81-447a-833f-c01b2aab8fcc)
+
+Apachen omassa lokissa ei kuitenkaan näy tekstijonoa "nmap", pelkästään user agentti joka muutettiin. 
 
 
 
