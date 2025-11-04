@@ -45,6 +45,14 @@ Tuntui että ständeillä ei välttämättä oltu kovin kiinnostuneita opiskelij
 
 Messut olivat hieman jännittävä paikka. Tuntui että oma tietotaito ei ole vielä tarpeeksi korkea että messuista olisi saanut jotain irti. Eikä kovin mielenkiintoisia kohteita löytynyt.
 
+Oli hauska nähdä miten useammalla ständillä oli jokin pulma tai tehtävä mikä piti ratkaista tai "hakkeroida".
+
+Ironista kyllä että kyseessä on tietoturvamessut mutta lähes jokaisella ständillä kyseltiin osallistujilta heidän henkilötietojaan. Jos halusi osallistua mihinkään arvontaan tai tehtävään oli yritykselle kerrottava omat tiedot.
+
+
+
+
+
 
 
 
