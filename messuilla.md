@@ -37,6 +37,19 @@ Toinen ständi jolla kävin pysähtymässä kuului *CLOUDFLARELLE*. Heillä oli 
 
 4 3 5 Two numbers are correct but in wrong places*
 
+Jätetään oikea vastaus raportin loppuun jos lukija haluaa yrittää ratkaista kyseistä ongelmaa.
+
+Muita ständejä joita kävin tarkastelemassa oli esimerkiksi: Withsecure, Trend Micro, Elisa cyber security senter.
+
+Tuntui että ständeillä ei välttämättä oltu kovin kiinnostuneita opiskelijoista. Ainakaan niillä ständeillä millä itse kävin. Kannustettiin opiskelemaan tietoturvaa mutta omasta yrityksestä ei innostuttu juurikaan puhumaan. Toki en tietenkään jokaisella ständillä käynyt joten itselle osui ehkä juuri ne tylsimmät. 
+
+Messut olivat hieman jännittävä paikka. Tuntui että oma tietotaito ei ole vielä tarpeeksi korkea että messuista olisi saanut jotain irti. Eikä kovin mielenkiintoisia kohteita löytynyt.
+
+
+
+
+Oikea vastaus numerotehtävään on **853** 
+
 
 
 
