@@ -25,17 +25,17 @@ Toinen ständi jolla kävin pysähtymässä kuului *CLOUDFLARELLE*. Heillä oli 
 
 ![koodi](https://github.com/user-attachments/assets/99cebd54-f52f-4249-8f41-51c5a94fba24)
 
-*Crack the following code:
+*Crack the following code:*
 
-1 5 4 One number is correct and well placed.
+*1 5 4 One number is correct and well placed.*
 
-4 3 1 One number is correct but wrongly placed
+*4 3 1 One number is correct but wrongly placed*
 
-8 1 3 Two numbers are correct and well placed
+*8 1 3 Two numbers are correct and well placed*
 
-2 6 8 One number is correct but wrongly placed
+*2 6 8 One number is correct but wrongly placed*
 
-4 3 5 Two numbers are correct but in wrong places*
+*4 3 5 Two numbers are correct but in wrong places*
 
 Jätetään oikea vastaus raportin loppuun jos lukija haluaa yrittää ratkaista kyseistä ongelmaa.
 
