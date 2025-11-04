@@ -56,7 +56,27 @@ Ironista kyllä että kyseessä on tietoturvamessut mutta lähes jokaisella stä
 
 
 
-Oikea vastaus numerotehtävään on **853** 
+
+
+**VASTAUS**
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+
+Oikea vastaus numerotehtävään on `853`
 
 
 
