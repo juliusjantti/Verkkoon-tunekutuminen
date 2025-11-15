@@ -31,4 +31,33 @@ Ohjeita löytyy WifiChallengen README sivuilta. Sekä muita aloittelijan ohjeita
 
 # **b) Kirjoita raportti siitä mitä opit ja mitkä asia yllättivät sinut kun tutustuit harjoitukseen.**
 
-Ensimmäinen "introduction" tehtävä sujui melko mutkitta, mutta seuraavissa tuli jo haasteita vastaan. 
+Ensimmäinen "introduction" tehtävä sujui melko mutkitta, mutta seuraavissa tuli jo haasteita vastaan. Oikeastaan kaikissa seuraavissa tehtävissä tuli liikaa haasteita vastaan. Harjoitukset olivat yllättänän vaikeita enkä itse ainakaan selvinnyt niistä ilman apua. Myös tehtävä 03 ei ratkennus edes avun kanssa.
+
+![](https://github.com/user-attachments/assets/34b771f9-af08-4923-a922-c049eefd1e05)
+![](https://github.com/user-attachments/assets/84fb722d-5e1d-4cd4-9197-e13c20464c7f)
+
+Ohjeien mukaan vastaus pitäisi olla "wifi-offices, Jason" mutta tehtävä ei ratkennut sillä.
+
+Tehtävää 05 en saanut ollenkaan toimimaan vaikka seurasin walktrough ohjetta. 
+
+![](https://github.com/user-attachments/assets/e5003c90-d3f6-45df-bc34-91f7a9722736)
+
+Harjoituksessa oppi hieman käyttämään Aircrack-ng työkalua. Koin itse ainakin harjoitukset liian haastaviksi. Läksyistä ei tullut opittua aivan kauheasti sillä tuntui että nyt mentiin liian nopeasti liian syvään päätyyn.
+
+![](https://github.com/user-attachments/assets/8280749f-6dbc-49af-ae96-e072e15b53e4)
+
+Muutama tehty harjoitus ylempänä. 03 vastaus ei toiminut. 05 yritin ratkaista mutta en sitäkään saanut kokonaan toimimaan. 
+
+
+
+# **c) Miten suhtautumisesi WLanin turvallisuuteen muuttui sen jälkeen kun teit harjoitukset?**
+
+Suhtautumiseni ei vielä muutunut kovinkaan paljoa.
+
+
+
+# Lähteet
+
+- WifiCahllenge: https://lab.wifichallenge.com/
+- Tero Karvinen, Verkkoon tunkeutuminen ja tiedustelu: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/
+- Aircrack-ng, Airmon-ng: https://www.aircrack-ng.org/doku.php?id=airmon-ng
