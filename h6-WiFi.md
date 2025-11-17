@@ -55,7 +55,7 @@ Bonuksena tunnilla mainittu "Evil Twin Attack". Se on hyökkäys jossa mennään
 
 # **c) Miten suhtautumisesi WLanin turvallisuuteen muuttui sen jälkeen kun teit harjoitukset?**
 
-Suhtautumiseni ei vielä muutunut kovinkaan paljoa.
+Suhtautumiseni ei vielä muutunut kovinkaan paljoa. Tiedossa oli jo kuinka simppeliä verkkoihin murtautuminen voi olla. Mutta itse en näissä tehtävissä vielä kovin syvälle kuitenkaan päässyt.
 
 
 
