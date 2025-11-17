@@ -49,6 +49,9 @@ Harjoituksessa oppi hieman käyttämään Aircrack-ng työkalua. Koin itse ainak
 Muutama tehty harjoitus ylempänä. 03 vastaus ei toiminut. 05 yritin ratkaista mutta en sitäkään saanut kokonaan toimimaan. 
 
 
+Bonuksena tunnilla mainittu "Evil Twin Attack". Se on hyökkäys jossa mennään johonkin paikkaan jossa on paljon ihmisiä, sekä vapaasti käytettäviä verkkoja. Viedään paikalle tukiasema ja luodaan verkko joka on samanlainen kuin jokin olemasa oleva verkko. Sitten odotetaan että ihmiset kirjautuvat vahingossa tähän valeverkkoon, oikean verkon sijaan. Tällöin voidaan napata liikennettä tai kopioitavan verkon salasana. Hyökkäyksessä siis luodaan oikeasta verkosta ns "evil twin" verkko.
+
+
 
 # **c) Miten suhtautumisesi WLanin turvallisuuteen muuttui sen jälkeen kun teit harjoitukset?**
 
