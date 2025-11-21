@@ -57,9 +57,15 @@ Muutama komento.
 Liikenteen huijaaminen ei onnistunut yhdellä virtuaalikoneella.
 
 
-# **b) Sinulla on käytössäsi mininet ympäristö. Luo ympäristö, jossa voit tehdä TCP SYN-Flood hyökkäyksen.
-Kirjoita miten loit mininet ympäristön ja miten toteutit hyökkäyksen.**
+# **b) Sinulla on käytössäsi mininet ympäristö. Luo ympäristö, jossa voit tehdä TCP SYN-Flood hyökkäyksen. Kirjoita miten loit mininet ympäristön ja miten toteutit hyökkäyksen.**
 
+Yritetään ensin saada mininet ympäristö käyttöön. Pitkän pähkäilyn ja säätämisen jälkeen se onnistui.
+
+
+
+![](https://github.com/user-attachments/assets/46897f1e-abdb-4acc-a3a2-304fa24f8438)
+
+Kuvassa yhteys omasta tietokoneesta mininet koneeseen.
 
 
 
