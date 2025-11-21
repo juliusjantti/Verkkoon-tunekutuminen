@@ -40,7 +40,25 @@ Siirrytäään sinne ja sieltä näyttäisi Evilginx löytyvän.
 
 ![](https://github.com/user-attachments/assets/2810992e-16b2-4d2e-bad9-cb850185ee15)
 
-Evilginx näyttäisi toimivan. 
+Evilginx näyttäisi toimivan. Lisätään vielä hakemisto /phishlets jotta evilginx lähtee kunnolla toimimaan. 
+
+![](https://github.com/user-attachments/assets/d1421802-9bbc-4996-968f-09224d959c75)
+
+Tämän jälkeen ohjelma valitti domaineista ja ip osoitteista. 
+
+![](https://github.com/user-attachments/assets/082bdb8a-1c13-4452-9919-07e662e9edc9)
+
+Tuntuu että ohjelmalla ei juurikaan pysty tekemään mitään yhden virtuaalikoneen sisällä.
+
+![](https://github.com/user-attachments/assets/40024268-3e09-44ea-b5e7-6bb37e193948)
+
+Muutama komento.
+
+Liikenteen huijaaminen ei onnistunut yhdellä virtuaalikoneella.
+
+
+# **b) Sinulla on käytössäsi mininet ympäristö. Luo ympäristö, jossa voit tehdä TCP SYN-Flood hyökkäyksen.
+Kirjoita miten loit mininet ympäristön ja miten toteutit hyökkäyksen.**
 
 
 
@@ -50,4 +68,5 @@ Evilginx näyttäisi toimivan.
 
 - Evilginx, Local Installation Guide: https://help.evilginx.com/pro/installation/local
 - Github, Node Version Manager: https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating
-- 
+- Evilginx, Community Help page: https://help.evilginx.com/community
+- Marcinmitruk, Evilginx phishing commands tutorial: https://marcinmitruk.link/posts/evilginx-phishing-commands-tutorial/
