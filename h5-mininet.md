@@ -74,6 +74,12 @@ Tämän jälkeen tuli kuitenkin ongelmia. En saanut eri ikkunoita auki yrittäes
 
 Googlesta löytyi jonkin verran tietoa tästä ongelmasta mutta en saanut sitä kuitenkaan toimimaan. Luentomateriaaleissa oleva ohje ei myöskään auttanut.
 
+Kokeillaan vielä ladata erillinen ohjelma xQuartz, jos sillä saisi xtermin toimimaan.
+
+![](https://github.com/user-attachments/assets/35e8f76d-a946-4c84-9458-35b8467489ca)
+
+Ei kovin lupaavalta tämäkään näytä.
+
 Joten en tässä vaiheessa saanut luotua TCP SYN-flood hyökkäystä.
 
 
