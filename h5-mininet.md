@@ -67,6 +67,15 @@ Yritetään ensin saada mininet ympäristö käyttöön. Pitkän pähkäilyn ja 
 
 Kuvassa yhteys omasta tietokoneesta mininet koneeseen.
 
+Tämän jälkeen tuli kuitenkin ongelmia. En saanut eri ikkunoita auki yrittäessäni ajaa komentoa `xterm h1`
+
+
+![](https://github.com/user-attachments/assets/33a78d29-0cb3-4d85-84b2-f1b5cfd82ce9)
+
+Googlesta löytyi jonkin verran tietoa tästä ongelmasta mutta en saanut sitä kuitenkaan toimimaan. Luentomateriaaleissa oleva ohje ei myöskään auttanut.
+
+Joten en tässä vaiheessa saanut luotua TCP SYN-flood hyökkäystä.
+
 
 
 
