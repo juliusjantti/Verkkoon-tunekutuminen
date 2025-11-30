@@ -35,24 +35,38 @@ voisi suojautua mahdollisesti paremmin pitämällä RFID tuotteita paremmassa pa
 
 CardLogix [Application Protocol Data Unit](https://www.cardlogix.com/glossary/apdu-application-protocol-data-unit-smart-card/)
 
-APDUt ovat komentoja joita käytetään korttien ja kortinlukijoiden väliseen kommunikointiin. Komennot koostuvat käsky- ja vastausviesteistä. (Comman and Response messages.)
+APDUt ovat komentoja joita käytetään korttien ja kortinlukijoiden väliseen kommunikointiin. Komennot koostuvat käsky- ja vastausviesteistä. (Comman and Response messages.) Yleensä puhutaan käsky- ja vastauspareista.
 
 Lista käytetyimmistä APDU komennoista:
 
 SELECT FILE (0x00A4)
+
 READ BINARY (0x00B0)
+
 UPDATE BINARY (0x00D6)
+
 READ RECORDS (0x00B2)
+
 UPDATE RECORDS (0x00DC)
+
 APPEND RECORD (0x00E2)
+
 VERIFY (0x0020)
+
 CHANGE REFERENCE DATA (0x0024)
+
 RESET RETRY COUNTER (0x002C)
+
 GET CHALLENGE (0x0084)
+
 INTERNAL AUTHENTICATE (0x0088)
+
 EXTERNAL AUTHENTICATE (0x0082)
+
 TERMINATE CARD USAGE (0x826E)
+
 ERASE BINARY (0x00DA)
+
 ERASE RECORDS (0x00DC)
 
 (Lähde: CardLogix)
@@ -73,3 +87,4 @@ Hälytyksiä aiheuttaa artikkelin mukaan myös usein päällä oleviin vaatteisi
 
 - CardLoxiz, Application Protocol Data Unit: https://www.cardlogix.com/glossary/apdu-application-protocol-data-unit-smart-card/
 - Helsingin Sanomat, Järjestä kortit lompakon sisällä näin, jos et halua turhaan leimautua varkaaksi marketin ovella: https://www.hs.fi/suomi/art-2000010980999.html
+- Wakdev, NFC Tools(iPhonelle): https://apps.apple.com/us/app/nfc-tools/id1252962749 
