@@ -25,7 +25,7 @@ Kortin tiedot luettaessa se `NFC Tools` sovelluksella.
 
 Skannaamalla kortin pääsee käyttäjä katselemaan virtuaalista käyntikorttia. Kortti vie osoitteeseen [Tapni.com/juliusjäntti](https://tapni.com/juliusjantti).
 
-Muita tuotteita mitä itseltä löytyy on lompakosta löytyvät erilaiset kortit: pankkikortti, erilaiset kauppojen bonuskortit, sekä henkilökortti. Lisäksi työpaikan avaimena tomiva kulkukortti. Kavereillani löytyy avaimista erilaisia lähiluku mahdollisuuksia, mutta itse operoin vielä perinteisellä ja mekaanisella avaimella.
+Muita tuotteita mitä itseltä löytyy on lompakosta löytyvät erilaiset kortit: pankkikortti, erilaiset kauppojen bonuskortit, sekä henkilökortti. Lisäksi työpaikan avaimena tomiva kulkukortti. Käytän myö puhelimesta löytyvää NFC ominaisuutta esimerkiksi juuri ApplePaylla maksamiseen. Kavereillani löytyy avaimista erilaisia lähiluku mahdollisuuksia, mutta itse operoin vielä perinteisellä ja mekaanisella avaimella.
 
 RFID tuotteiden suojaamista en ole erityiseti ajatellut. Joten en myöskään ole erittäin suojautunut. Suurin osa korteistani asuu lompakossani, joka taas on yleensä taskussa. Tasku ei ole mitenkään erityisen suojattu joten esimerkiksi väkijoukossa omien korttien urkinta ei todennäköisesti olisi kovin hankalaa. Lisäksi lompakko on perinteinen nahkalompakko.
 Työkortin urkinta on hieman hankalampaa sillä kortti on mukana ainoastaan silloin kun olen matkalla töihin. Muuten se pysyy kotona, josta urkkiminen on melko hankalaa. RFID urkinnalta 
