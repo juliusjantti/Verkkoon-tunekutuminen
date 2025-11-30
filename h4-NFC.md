@@ -87,4 +87,5 @@ Hälytyksiä aiheuttaa artikkelin mukaan myös usein päällä oleviin vaatteisi
 
 - CardLoxiz, Application Protocol Data Unit: https://www.cardlogix.com/glossary/apdu-application-protocol-data-unit-smart-card/
 - Helsingin Sanomat, Järjestä kortit lompakon sisällä näin, jos et halua turhaan leimautua varkaaksi marketin ovella: https://www.hs.fi/suomi/art-2000010980999.html
-- Wakdev, NFC Tools(iPhonelle): https://apps.apple.com/us/app/nfc-tools/id1252962749 
+- Wakdev, NFC Tools(iPhonelle): https://apps.apple.com/us/app/nfc-tools/id1252962749
+- Tero Karvinen, Verkkoon tunkeutuminen ja tiedustelu: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/
