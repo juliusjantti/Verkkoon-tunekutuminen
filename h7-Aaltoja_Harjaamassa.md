@@ -25,5 +25,14 @@ g) Bittistä. Demoduloi signaali niin, että saat raakabittejä. Mikä on oikea 
 *Näytteet ladattavissa [Teron](https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/) sivuilta.*
 
 
+
+# **x) Lue ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)**
+
+[Hubacek 2019: Universal Radio Hacker SDR Tutorial on 433 MHz radio plugs (Video, alkaen 3:19 ja päättyen 7:40. Yhteensä noin 4 min.)](https://www.youtube.com/watch?t=199&v=sbqMqb6FVMY&feature=youtu.be)
+
+[Cornelius 2022: Decode 433.92 MHz weather station data](https://www.onetransistor.eu/2022/01/decode-433mhz-ask-signal.html)
+- 
+
+
 # Lähteet
 - Tero Karvinen, 2025, Verkkoon tunkeutuminen ja tiedustelu: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/
