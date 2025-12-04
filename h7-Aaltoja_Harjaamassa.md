@@ -51,10 +51,31 @@ Aallonpituus on 1160.000 kHz. Käytössä Oli amplitudimodulaatio (AM).
 
 Radiosta kuului ohjelma nimeltää "KSL News Radio". Ohjelmassa oli paikallisia uutisia (oletettavasti Utahista) sekä sääennusteita. Uutisissa oli mm. kadonnut nuori lapsi, sekä uutisia Trumpin päätöksistä. Uutisissa puhuttiin myös Matthew Perryn kuolemasta ja Perryn lääkärin oikeudenkäynnistä.
 
+
+# **b) rtl_433. Asenna rtl_433 automaattista analyysia varten. Kokeile, että voit ajaa sitä. './rtl_433' vastaa "rtl_433 version 25.02 branch..."**
+
+Käytössäni on Applen joten kokeillaan rtl_433 asentamista suoraan siihen. Virallisista github ohjeista löytyi komento `brew install rtl_433` joten ajetaan se. Jostain syystä asennus ei onnistunut. 
+
+Siirrytäänpä sitten virtualboxiin ja Debian virtuaalikoneeseen. Ajetaan siellä komento `sudo apt-get install rtl-433`.
   
+![](https://github.com/user-attachments/assets/1123f976-16d1-4668-a651-315e1638468d)
+
+Debianilla asennus onnistui helposti. Käytössä on siis versio 25.02.
+
+
+# **c) Automaattinen analyysi. Mitä tässä näytteessä tapahtuu? Mitä tunnisteita (id yms) löydät? Analysoi näyte 'rtl_433' ohjelmalla.**
+
+Näyte nimeltään `Converted_433.92M_2000k.cs8`
+
+Ajetaan komento `rtl_433 -r Converted_433.92M_2000k.cs8. `
+
+![](https://github.com/user-attachments/assets/cf67e3bf-6804-4776-ab3f-7a5bb072ce38)
+
+Näytteestä ilmestyi jonkin verran dataa. Näytteestä löytyi kolme ari laitetta: Nexa-Security, Proove-Security ja KlikAanKlikUnit-Switch. Olisivatkohan nämä jotain turva/hälytyslaitteita. Jokaisessa laitteessa ID tai House kode on sama 8785315. Kaikki laitteet näyttäsivät olevan pois päältä. Channel ja Unit on jokaisessa myös sama 3.
+
 
 
 # Lähteet
 - Tero Karvinen, 2025, Verkkoon tunkeutuminen ja tiedustelu: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/
 - Northern Utah WebSDR, http://websdr1.sdrutah.org:8901/index1a.html
-- 
+- GitHub, merbanan, rtl_433: https://github.com/merbanan/rtl_433
