@@ -16,7 +16,9 @@ c) Automaattinen analyysi. Mitä tässä näytteessä tapahtuu? Mitä tunnisteit
 d) Too compex 16? Olet nauhoittanut näytteen 'urh' -ohjelmalla .complex16s-muodossa. Muunna näyte rtl_433-yhteensopivaan muotoon ja analysoi se. 
 
 e) Ultimate. Asenna URH, the Ultimate Radio Hacker.
-Tarkastele näytettä. Siinä Nexan pistorasian kaukosäätimen valon 1 ON -nappia on painettu kolmesti. Käytä Ultimate Radio Hacker 'urh' -ohjelmaa.
+
+
+- Tarkastele näytettä. Siinä Nexan pistorasian kaukosäätimen valon 1 ON -nappia on painettu kolmesti. Käytä Ultimate Radio Hacker 'urh' -ohjelmaa.
 
 f) Yleiskuva. Kuvaile näytettä yleisesti: kuinka pitkä, millä taajuudella, milloin nauhoitettu? Miltä näyte silmämääräisesti näyttää?
 
@@ -41,7 +43,7 @@ g) Bittistä. Demoduloi signaali niin, että saat raakabittejä. Mikä on oikea 
 
 
 
-# **a) WebSDR. Etäkäytä WebSDR-ohjelmaradiota, joka on kaukana sinusta ja kuuntele radioliikennettä. Radioliikenne tulee siepata niin, että radiovastaanotin on joko eri maassa tai vähintään 400 km paikasta, jossa teet tätä tehtävää. Käytä esimerkkinä julkista, suurelle yleisölle tarkoitettua viestiä, esimerkiksi yleisradiolähetystä. Kerro löytämäsi taajuus, aallonpituus ja modulaatio. Kuvaile askeleet ja ota ruutukaappaus. (Tehtävässä ei saa ilmaista sellaisen viestin sisältöä tai olemassaoloa, joka ei ole tarkoitettu julkiseksi. Voit sen sijaan kuvailla, miten sait julkisen radiolähetyksen kuulumaan kaiuttimistasi. Julkisten, esimerkiksi yleisradiolähetysten sisältöä saa tietysti kuvailla.)**
+# **a) WebSDR. Etäkäytä WebSDR-ohjelmaradiota, joka on kaukana sinusta ja kuuntele radioliikennettä. Radioliikenne tulee siepata niin, että radiovastaanotin on joko eri maassa tai vähintään 400 km paikasta, jossa teet tätä tehtävää. Käytä esimerkkinä julkista, suurelle yleisölle tarkoitettua viestiä, esimerkiksi yleisradiolähetystä. Kerro löytämäsi taajuus, aallonpituus ja modulaatio. Kuvaile askeleet ja ota ruutukaappaus.**
 
 Googlailemalla löysin [Northern Utah WebSDR serverin](http://websdr1.sdrutah.org:8901/index1a.html)
 
@@ -54,7 +56,9 @@ Radiosta kuului ohjelma nimeltää "KSL News Radio". Ohjelmassa oli paikallisia 
 
 # **b) rtl_433. Asenna rtl_433 automaattista analyysia varten. Kokeile, että voit ajaa sitä. './rtl_433' vastaa "rtl_433 version 25.02 branch..."**
 
-Käytössäni on Applen joten kokeillaan rtl_433 asentamista suoraan siihen. Virallisista github ohjeista löytyi komento `brew install rtl_433` joten ajetaan se. Jostain syystä asennus ei onnistunut. 
+Käytössäni on Applen joten kokeillaan rtl_433 asentamista suoraan siihen. Virallisista github ohjeista löytyi komento `brew install rtl_433` joten ajetaan se.
+
+Jostain syystä asennus ei onnistunut. 
 
 Siirrytäänpä sitten virtualboxiin ja Debian virtuaalikoneeseen. Ajetaan siellä komento `sudo apt-get install rtl-433`.
   
@@ -74,8 +78,70 @@ Ajetaan komento `rtl_433 -r Converted_433.92M_2000k.cs8. `
 Näytteestä ilmestyi jonkin verran dataa. Näytteestä löytyi kolme ari laitetta: Nexa-Security, Proove-Security ja KlikAanKlikUnit-Switch. Olisivatkohan nämä jotain turva/hälytyslaitteita. Jokaisessa laitteessa ID tai House kode on sama 8785315. Kaikki laitteet näyttäsivät olevan pois päältä. Channel ja Unit on jokaisessa myös sama 3.
 
 
+# **d) Too compex 16? Olet nauhoittanut näytteen 'urh' -ohjelmalla .complex16s-muodossa. Muunna näyte rtl_433-yhteensopivaan muotoon ja analysoi se.**
+
+Näyte nimeltään `Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s`
+
+Kyseinen tiedosto on väärässä muodossa joten muutetaan se oikeaan muotoon Teron vinkkien mukaisesti. Muutetaan pelkästään nimeä. Vaihdetaan ".complex16s" muoto "cs8" muotoon. Pelkästään tiedostonimi muuttui. 
+
+Tämän jälkeen kokeillaan ajaa sama komento kuin edellisessä kohdassa: `rtl_433 -r Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.cs8`
+
+![](https://github.com/user-attachments/assets/34144cd3-6500-435d-8cbd-de2d96e59114)
+
+Ja kappas näyte aukesi. Näyte sisälsi samaa informaatiota kuin aikaisempi näyte. Proove- ja Nexa-Security.
+
+# **e) Ultimate. Asenna URH, the Ultimate Radio Hacker.**
+
+Seurataan ohjeita suoraan teron vinkeistä:
+
+`sudo apt-get update`
+
+`sudo apt-get -y install pipx`
+
+`pipx install urh`
+
+`pipx ensurepath`
+
+sulje ja avaa terminaali
+
+`urh`
+
+URH graafinen käyttöliittymä aukeaa
+
+Mutta kohdassa `pipx install urh` tulikin ongelmia.
+
+![](https://github.com/user-attachments/assets/7b1a6495-af7c-4b58-8297-5888bdd7d408)
+Asennus ei onnistunutkaan.
+
+Tutkitaan kohtaa jossa lukee "Full pip output in file:". Avataan kyseinen tiedosto.
+
+![](https://github.com/user-attachments/assets/0a4dd089-fc9f-4073-a95f-c0463e509c82)
+
+Siellä huomiota herätti kohta "You need Cython to build URH´s extentions!"
+
+Kokeillaan komentoa `python3 -m pipx install cython`
+
+![](https://github.com/user-attachments/assets/628eac8b-ccce-4dc1-bb89-e721b3d01fd8" />)
+
+Jotain tapahtui onnistuneesti. Mutta ongelma ei siltikään ratkennut. 
+
+Tässä vaiheessa katsotaan apua luokkakaverien raporteista. Seurataan Robin Niinementsin (rapottia)[https://rbin.dev/diary/entries/diary.html?entry=VT25-008&week=Week%2049] sillä siellä näyttäisi olevan ratkaisu ongelmaan. 
+
+URH perinteisessä asennuksessa näyttäisi olevan tällä hetkellä bugi, joten seurataan Robinin ohjeita URHin asentamiseen.
+
+![](https://github.com/user-attachments/assets/edf44e7e-f7a1-4bef-8c8d-aca5e47816f1)
+
+Ohjeita seuraamalla jäätiin silti jumiin samaan kohtaan. Cython on asennettu mutta silti URH ei toimi. Tässä vaiheessa pitää luovuttaa. 
+
+Yritin huvikseni ladata vielä toista ohjelmaa nimeltä "GQRX" mikä oli löytyi teron vinkeistä. Mutta sekään ei toiminut. 
+
+!()[https://github.com/user-attachments/assets/1e6838aa-b811-465c-b558-b2ad88aff800)
+
+
+
 
 # Lähteet
 - Tero Karvinen, 2025, Verkkoon tunkeutuminen ja tiedustelu: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/
 - Northern Utah WebSDR, http://websdr1.sdrutah.org:8901/index1a.html
 - GitHub, merbanan, rtl_433: https://github.com/merbanan/rtl_433
+- Robin Niiniments, H7 - Aaltoja Harjaamassa: https://rbin.dev/diary/entries/diary.html?entry=VT25-008&week=Week%2049
