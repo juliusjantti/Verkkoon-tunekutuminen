@@ -131,11 +131,24 @@ URH perinteisessä asennuksessa näyttäisi olevan tällä hetkellä bugi, joten
 
 ![](https://github.com/user-attachments/assets/edf44e7e-f7a1-4bef-8c8d-aca5e47816f1)
 
-Ohjeita seuraamalla jäätiin silti jumiin samaan kohtaan. Cython on asennettu mutta silti URH ei toimi. Tässä vaiheessa pitää luovuttaa. 
+Ohjeita seuraamalla jäätiin silti jumiin samaan kohtaan. Cython on asennettu mutta silti URH ei toimi. Tässä vaiheessa teki mieli jo luovuttaa.
 
-Yritin huvikseni ladata vielä toista ohjelmaa nimeltä "GQRX" mikä oli löytyi teron vinkeistä. Mutta sekään ei toiminut. 
+Kokeilin kuitenkin vielä kokeilla ajamalla komennon `python setup.py install` ja tämän avulla URH lähtikin toimimaan. Komento löytyi arvioidessani Santeri Vauramon [raporttia](https://santerivauramo.com/schoolworks/verkkoon-tunkeutuminen-ja-tiedustelu/h7/)
 
-![](https://github.com/user-attachments/assets/1e6838aa-b811-465c-b558-b2ad88aff800)
+![](https://github.com/user-attachments/assets/d4c50d66-41e4-43b2-a6e6-d61e5841399d)
+
+Komennolla `URH` sain vihdoin ohjelman auki. Avataan myös URHilla tehtävän näyte " 1-on-on-on-HackRF-20250412_113805-433_912MHz-2MSps-2MHz.complex16s"
+
+# **f) Yleiskuva. Kuvaile näytettä yleisesti: kuinka pitkä, millä taajuudella, milloin nauhoitettu? Miltä näyte silmämääräisesti näyttää?**
+
+![](https://github.com/user-attachments/assets/8133ff92-2a75-4f2b-b78d-c92ac28c8f08)
+
+Silmämääräisesti näytteestä näkee heti kolme painallusta. Näytteestä on hieman vaikea ymmärtää muita asioita. Tieostonimestä voisi päätellä että nauhoitus on tehty 4.12.2025. Näytteen kesto on noin 5,47 sekuntia.
+
+# **g) Bittistä. Demoduloi signaali niin, että saat raakabittejä. Mikä on oikea modulaatio? Miten pitkä yksi raakabitti on ajassa? Kuvaile tätä aikaa vertaamalla sitä johonkin. (Monissa singaaleissa on line encoding, eli lopullisia bittejä varten näitä "raakabittejä" on vielä käsiteltävä)**
+
+Oikea modulaatio taitaa olla ASK. Raakabitti on noin 520 mikrosekuntia pitkä. Tunnissa on 3 600 000 000 mikrosekuntia.
+
 
 
 
@@ -145,3 +158,4 @@ Yritin huvikseni ladata vielä toista ohjelmaa nimeltä "GQRX" mikä oli löytyi
 - Northern Utah WebSDR, http://websdr1.sdrutah.org:8901/index1a.html
 - GitHub, merbanan, rtl_433: https://github.com/merbanan/rtl_433
 - Robin Niiniments, H7 - Aaltoja Harjaamassa: https://rbin.dev/diary/entries/diary.html?entry=VT25-008&week=Week%2049
+- Santeri Vauramo h7 Aaltoja Harjaamassa: https://santerivauramo.com/schoolworks/verkkoon-tunkeutuminen-ja-tiedustelu/h7/
