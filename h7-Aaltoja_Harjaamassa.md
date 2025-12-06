@@ -121,11 +121,11 @@ Siellä huomiota herätti kohta "You need Cython to build URH´s extentions!"
 
 Kokeillaan komentoa `python3 -m pipx install cython`
 
-![](https://github.com/user-attachments/assets/628eac8b-ccce-4dc1-bb89-e721b3d01fd8" />)
+![](https://github.com/user-attachments/assets/628eac8b-ccce-4dc1-bb89-e721b3d01fd8)
 
 Jotain tapahtui onnistuneesti. Mutta ongelma ei siltikään ratkennut. 
 
-Tässä vaiheessa katsotaan apua luokkakaverien raporteista. Seurataan Robin Niinementsin (rapottia)[https://rbin.dev/diary/entries/diary.html?entry=VT25-008&week=Week%2049] sillä siellä näyttäisi olevan ratkaisu ongelmaan. 
+Tässä vaiheessa katsotaan apua luokkakaverien raporteista. Seurataan Robin Niinementsin [rapottia](https://rbin.dev/diary/entries/diary.html?entry=VT25-008&week=Week%2049) sillä siellä näyttäisi olevan ratkaisu ongelmaan. 
 
 URH perinteisessä asennuksessa näyttäisi olevan tällä hetkellä bugi, joten seurataan Robinin ohjeita URHin asentamiseen.
 
@@ -135,7 +135,7 @@ Ohjeita seuraamalla jäätiin silti jumiin samaan kohtaan. Cython on asennettu m
 
 Yritin huvikseni ladata vielä toista ohjelmaa nimeltä "GQRX" mikä oli löytyi teron vinkeistä. Mutta sekään ei toiminut. 
 
-!()[https://github.com/user-attachments/assets/1e6838aa-b811-465c-b558-b2ad88aff800)
+![](https://github.com/user-attachments/assets/1e6838aa-b811-465c-b558-b2ad88aff800)
 
 
 
