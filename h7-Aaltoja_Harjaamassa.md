@@ -150,6 +150,7 @@ Silmämääräisesti näytteestä näkee heti kolme painallusta. Näytteestä on
 Oikea modulaatio taitaa olla ASK. Raakabitti on noin 520 mikrosekuntia pitkä. Tunnissa on 3 600 000 000 mikrosekuntia.
 
 
+![](https://github.com/user-attachments/assets/1d2cf2f7-9c60-42ed-b833-182539bd0b4b)
 
 
 
